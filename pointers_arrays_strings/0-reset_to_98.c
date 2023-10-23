@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 /**
  * main - Changes value to 98.
