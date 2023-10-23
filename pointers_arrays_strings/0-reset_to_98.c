@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * main - Changes value to 98.
+ * reset_to_98 - Changes value to 98.
  *
+ * @n: A pointer to an int.
  */
 void reset_to_98(int *n)
 {
