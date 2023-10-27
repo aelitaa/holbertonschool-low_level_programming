@@ -9,6 +9,7 @@
 void print_rev(char *s)
 {
   int length = strlen(s)
+  int i;
     for (int i = length - 1 ; i >= 0 ; i--)
       {
        printf("%c\n", s[i]);
