@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 #include <string.h>
 /**
  * print_array - outputs second half of string
@@ -8,11 +9,10 @@
  */
 void print_array(int *a, int n)
 {
-int length = sizeof(a) / sizeof(a[0]);
 int i;
-for (i = 0 ; i < length; i++)
+for (i = 0 ; i < n ; i++)
 {
-  if(i < length - 1)
+  if(i < n - 1)
     {
       printf("%d, ", a[i]);
     }else
@@ -21,5 +21,4 @@ for (i = 0 ; i < length; i++)
     }
 }
 
- return (0);
 }
