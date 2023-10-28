@@ -6,7 +6,7 @@
  *
  * @dest: Copied to.
  * @src: Copied from.
- * @dest_start: returned value.
+ * Return: Pointer to the destination buffer (i.e., dest).
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -19,5 +19,5 @@ dest++;
 src++;
 }
 *dest = '\0';
-return dest_start;
+return (dest_start);
 }
