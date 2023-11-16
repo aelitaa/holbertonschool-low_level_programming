@@ -1,3 +1,4 @@
+
 #include "main.h"
 #include <stdlib.h>
 
@@ -19,8 +20,9 @@ return (NULL);
 }
 for (a = 0; str[a]; a++)
 {
+a++;
 }
-s=malloc(sizeof(char) * (a + 1);
+s=malloc(sizeof(char) * (a + 1));
 if (s == NULL)
 return (NULL);
 for (b = 0; b < a; b++)
