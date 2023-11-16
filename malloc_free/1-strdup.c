@@ -26,5 +26,6 @@ for (b = 0; b < a; b++)
 {
 s[b]=str[b];
 }
+s[b] = '\0';
 return s;
 }
