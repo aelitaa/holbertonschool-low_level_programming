@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints the file path.
- *
+ * Return: 0.
  */
 int main(void)
 {
