@@ -13,10 +13,10 @@ int _strlen(const char *s)
 {
 int lenstr = 0;
 while (*s)
-	{
-		s++;
-		lenstr++;
-	}
+{
+	s++;
+	lenstr++;
+}
 return (lenstr);
 }
 
