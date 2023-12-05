@@ -44,11 +44,12 @@ list_t *new;
 
 	if (*head == NULL)
 	{
-	  *head = new;    
+	*head = new;
 	}
 	else
 	{
 	list_t *temp = *head;
+
 	while (temp->next != NULL)
 	{
 	temp = temp->next;
