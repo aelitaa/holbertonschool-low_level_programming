@@ -12,7 +12,7 @@
 int _strlen(const char *s)
 {
 int lenstr = 0;
-	while(*s)
+while (*s)
 	{
 		s++;
 		lenstr++;
@@ -30,7 +30,7 @@ return (lenstr);
 
 list_t *add_node(list_t **head, const char *str)
 {
-  if (head != NULL && str != NULL)
+if (head != NULL && str != NULL)
 {
 	list_t *new;
 
