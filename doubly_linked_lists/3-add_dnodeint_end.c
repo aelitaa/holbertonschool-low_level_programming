@@ -6,7 +6,7 @@
  * add_dnodeint_end - add a node to the e. of list
  *
  * @head: head of the list
- * @n: integer 
+ * @n: integer
  * Return: new
  */
 
@@ -25,8 +25,10 @@ return (NULL);
 new->n = n;
 new->next = NULL;
 
-if (*head != NULL){
+if (*head != NULL)
+{
 	dlistint_t *temp = *head;
+
 	while (temp->next != NULL)
 	{
 		temp = temp->next;
