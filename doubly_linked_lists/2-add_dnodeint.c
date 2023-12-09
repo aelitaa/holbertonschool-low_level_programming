@@ -4,8 +4,9 @@
 
 /**
  * add_dnodeint - add a node to the b. of list
+ * @head: pointer to head pointer
+ * @n: integer
  *
- * @h: head of the list
  * Return: 0
  */
 
