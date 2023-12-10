@@ -39,10 +39,9 @@ if (b != NULL)
 
 		for (count = 0; count < len; count++)
 		{
-			if (b[count] != '0' && b[count] != '1')
-			{
-			 return (0);
-			}
+		if (b[count] != '0' && b[count] != '1')
+		return (0);
+
 		result = result << 1;
 		result = result | (b[count] - '0');
 		}
