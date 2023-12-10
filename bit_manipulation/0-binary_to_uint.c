@@ -9,10 +9,10 @@
  * Return: length
  */
 
-int _strlen (const char *str)
+int _strlen(const char *str)
 {
 	int count = 0;
-	
+
 	while (*str != '\0')
 	{
 	count++;
@@ -31,7 +31,7 @@ return (count);
 
 unsigned int binary_to_uint(const char *b)
 {
-if (b !=NULL)
+if (b != NULL)
 	{
 	int count = 0;
 		unsigned int result = 0;
@@ -41,13 +41,13 @@ if (b !=NULL)
 		{
 			if (b[count] != '0' && b[count] != '1')
 			{
-				return 0;
+			 return (0);
 			}
 		result = result << 1;
 		result = result | (b[count] - '0');
 		}
 
-		return result;
+		return (result);
 
 	}
 	else
